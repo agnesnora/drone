@@ -82,9 +82,7 @@ body {
   padding-right: 2em;
   line-height: 141.6%; /* 25.488px */
 }
-.section3 {
-  height: 800px;
-}
+
 .header > h1 {
   background-color: #000000;
   color: #fff;
@@ -126,31 +124,44 @@ blockquote {
   display: grid;
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
-  gap: 0;
+  justify-content: right;
 }
 .grid--item {
-  width: 117px;
-  height: 117px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* width: 117px;
+  height: 117px; */
 }
 .white--block {
-  background-color: bisque;
+  background-color: #fff;
 }
 .joystick {
   background-image: url("images/joystick.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .green {
   background-image: url("images/drone-green.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .mountain {
   background-image: url("images/drone-mountain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .top {
   background-image: url("images/road-from-sky.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .accessories {
   background-image: url("images/accessories.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section1--right--col {

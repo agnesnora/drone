@@ -12,17 +12,17 @@ export default function Section3() {
           In 2021, we’re about to double the excitement with 10,000 race
           participants and 100,000 fans!
         </p>
-        <div className="grid">
-          <div className=" grid--item white--block"></div>
-          <div className=" grid--item joystick"></div>
-          <div className=" grid--item green"></div>
-          <div className=" grid--item mountain"></div>
-          <div className=" grid--item top"></div>
-          <div className=" grid--item white--block"></div>
-          <div className=" grid--item white--block"></div>
-          <div className=" grid--item accessories"></div>
-          <div className=" grid--item white--block"></div>
-        </div>
+      </div>
+      <div className="grid">
+        <div className=" grid--item white--block"></div>
+        <div className=" grid--item joystick"></div>
+        <div className=" grid--item green"></div>
+        <div className=" grid--item mountain"></div>
+        <div className=" grid--item top"></div>
+        <div className=" grid--item white--block"></div>
+        <div className=" grid--item white--block"></div>
+        <div className=" grid--item accessories"></div>
+        <div className=" grid--item white--block"></div>
       </div>
     </div>
   );
