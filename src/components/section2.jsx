@@ -7,7 +7,10 @@ export default function Section2() {
           “the stadium is simply unreal. scrimba hall will make this the best
           drone racing event ever, period.”
         </blockquote>
-        <cite> Anonymous Person</cite>
+        <div className="cite--with--line">
+          {" "}
+          <cite> Anonymous Person</cite>
+        </div>
       </div>
     </div>
   );
